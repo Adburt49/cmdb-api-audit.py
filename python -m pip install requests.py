@@ -2,8 +2,8 @@ import requests
 
 API_URL = "https://my.api.mackaroo.com/ironclad/cmdb.json"
 API_Key = "cf7bbbd0"
-curl -H "X-API-Key" : cf7bbbd0 https://my.api.mackaroo.com/ironclad/cmdb.json 
-
+curl -H "X-API-Key" : cf7bbbd0 https://m7bby.api.mackaroo.com/ironclad/cmdb.json 
+Header API_Key: cf7bbbd0 
 response = requests.get(API_URL, timeout=10)
 print("Status code:", response.status_code)
 if response.status_code != 200:
